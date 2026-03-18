@@ -6,7 +6,7 @@ _site/
 vendor/
 
 # ADS BibTeX export (regenerate with scripts/ads_bib_to_yml.py, do not commit)
-_bibliography/
+# _bibliography/
 
 # Personal notes
 notes.txt
