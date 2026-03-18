@@ -341,8 +341,8 @@ select:focus-visible {
 .funders-row img,
 .funder-logo {
   display: block;
-  height: 70px;
-  max-height: 75px;
+  height: 60px;
+  max-height: 65px;
   width: auto;
   max-width: none;
   object-fit: contain;
