@@ -103,8 +103,8 @@ GO-EUREKA members have been supported by the following national and internationa
 * The Research Council of Norway (NFR)
 
 <div class="funders-row" aria-label="Funding agency logos">
-  <img src="/assets/img/funders/ANR-logo-2021-sigle.svg" alt="ANR logo" class="funder-logo">
   <img src="/assets/img/funders/CNES_logo.svg" alt="CNES logo" class="funder-logo">
+  <img src="/assets/img/funders/ANR-logo-2021-sigle.svg" alt="ANR logo" class="funder-logo">
   <img src="/assets/img/funders/AXA-logo.svg" alt="AXA logo" class="funder-logo">
   <img src="/assets/img/funders/FAPESP-logo.svg" alt="FAPESP logo" class="funder-logo">
   <img src="/assets/img/funders/NFR-logo.svg" alt="NFR logo" class="funder-logo">
