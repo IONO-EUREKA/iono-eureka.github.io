@@ -1,0 +1,26 @@
+- repo: iono-eureka/tec-alert-core
+  display_name: TEC Alert Core
+  summary: Core detection and alerting pipeline for ionospheric perturbation events.
+  tags:
+    - detection
+    - alerting
+    - gnss
+  priority: 1
+
+- repo: iono-eureka/wave-inference
+  display_name: Wave Inference
+  summary: Modeling and inversion routines for travel-time estimation and uncertainty.
+  tags:
+    - modeling
+    - inversion
+    - research
+  priority: 2
+
+- repo: iono-eureka/network-site
+  display_name: Network Site
+  summary: Public-facing organization website and content workflow.
+  tags:
+    - web
+    - jekyll
+    - outreach
+  priority: 3

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="section section-reveal">
+  <div class="container container-narrow">
+    <p class="eyebrow">{{ page.section | capitalize }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.display_date %}
+    <p class="meta">{{ page.display_date }}</p>
+    {% else %}
+    <p class="meta">{{ page.date | date: "%B %d, %Y" }}</p>
+    {% endif %}
+    {% if page.location %}
+    <p class="meta">Location: {{ page.location }}</p>
+    {% endif %}
+    {% if page.summary %}
+    <p class="lead">{{ page.summary }}</p>
+    {% endif %}
+    {% if page.external_url %}
+    <p><a href="{{ page.external_url }}">External link</a></p>
+    {% endif %}
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</article>

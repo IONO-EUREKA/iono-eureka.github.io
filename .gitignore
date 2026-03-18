@@ -1,0 +1,28 @@
+# Jekyll build output
+_site/
+
+# Bundler
+.bundle/
+vendor/
+
+# ADS BibTeX export (regenerate with scripts/ads_bib_to_yml.py, do not commit)
+_bibliography/
+
+# Personal notes
+notes.txt
+
+# Funder logos (not for public repo)
+assets/img/funders/ANR-logo-2021/
+
+# VS Code workspace file (personal)
+*.code-workspace
+
+# Editor / tooling caches
+.mypy_cache/
+.ruby-lsp/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

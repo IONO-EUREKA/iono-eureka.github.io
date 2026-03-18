@@ -1,0 +1,119 @@
+---
+layout: default
+---
+<section class="hero section-reveal">
+  <div class="container">
+    <p class="eyebrow">GO-EUREKA Network</p>
+    <h1 class="hero-title">Ionospheric science for better tsunami early warning.</h1>
+    <p class="hero-lead">
+      We connect researchers, institutes, and operational experts to strengthen early-warning capability
+      through robust ionospheric signal analysis.
+    </p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ '/about/' | relative_url }}">About the Network</a>
+      <a class="button button-subtle" href="{{ '/members/' | relative_url }}">Meet Members</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-reveal">
+  <div class="container">
+    <div class="section-header">
+      <h2>Live Ionospheric Data</h2>
+      <p>
+        Real-time data collection courtesy of the
+        <a href="http://altruist-project.com" target="_blank" rel="noopener noreferrer">Altruist Project</a>.
+      </p>
+    </div>
+    <div style="text-align: center;">
+      <a href="http://altruist-project.com" target="_blank" rel="noopener noreferrer" aria-label="Visit the Altruist Project website">
+        <img
+          src="http://altruist-project.com/station/m0se00ita0"
+          alt="Live ionospheric data from Altruist Project station m0se00ita0"
+          style="max-width: 100%; height: auto; border-radius: var(--radius-md); box-shadow: var(--shadow-md);"
+        />
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-reveal">
+  <div class="container">
+    <div class="section-header">
+      <h2>Highlights</h2>
+      <p>Current activity across events, news, and repositories.</p>
+    </div>
+    <div>
+      <article class="card">
+        <h3>Events</h3>
+        {% assign sorted_events = site.events | sort: "date" | reverse %}
+        {% if sorted_events.size > 0 %}
+          <ul class="list-compact">
+            {% for event in sorted_events limit: 3 %}
+            <li>
+              <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+              {% if event.display_date %}
+              <span>{{ event.display_date }}</span>
+              {% else %}
+              <span>{{ event.date | date: "%B %d, %Y" }}</span>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p>No events posted yet.</p>
+        {% endif %}
+      </article>
+
+      {% comment %}
+      ====== COMMENTED OUT — uncomment when ready ======
+
+      <article class="card">
+        <h3>Latest News</h3>
+        {% assign sorted_news = site.news | sort: "date" | reverse %}
+        {% if sorted_news.size > 0 %}
+          <ul class="list-compact">
+            {% for post in sorted_news limit: 3 %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <span>{{ post.date | date: "%B %d, %Y" }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p>No news posted yet.</p>
+        {% endif %}
+      </article>
+
+      <article class="card">
+        <h3>Featured Repositories</h3>
+        <ul class="list-compact">
+          {% assign featured_repos = site.data.repos_featured | sort: "priority" %}
+          {% for repo in featured_repos limit: 3 %}
+          <li>
+            <a href="https://github.com/{{ repo.repo }}">{{ repo.display_name }}</a>
+            <span>{{ repo.summary }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </article>
+
+      ====== END COMMENTED OUT ======
+      {% endcomment %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-reveal">
+  <div class="container">
+    <div class="section-header">
+      <h2>Quick Links</h2>
+    </div>
+    <div class="grid grid-4">
+      <a class="card card-link" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="card card-link" href="{{ '/members/' | relative_url }}">Members</a>
+      <a class="card card-link" href="{{ '/events/' | relative_url }}">Events</a>
+      <a class="card card-link" href="{{ '/resources/' | relative_url }}">Resources</a>
+    </div>
+  </div>
+</section>

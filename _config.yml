@@ -1,6 +1,31 @@
-# Optional: Set a proper title for your site
-title: GO-EUREKA
+title: GO-EUREKA Network
+name: GO-EUREKA Network
+description: Research network focused on tsunami early warning using ionospheric signals.
+url: "https://iono-eureka.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Dylan-notes.txt
 
-# Crucial: This setting often removes the header/link.
-# Set it to the same value as your desired title.
-name: GO-EUREAK Network
+collections:
+  events:
+    output: true
+    permalink: /events/:name/
+  news:
+    output: true
+    permalink: /news/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: post
+      section: events
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+      section: news

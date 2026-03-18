@@ -1,0 +1,19 @@
+- title: GO-EUREKA Technical Overview
+  type: Publication
+  description: Program-level summary of objectives, methodologies, and deliverables.
+  url: https://github.com/iono-eureka
+
+- title: GNSS-TEC Processing Toolkit
+  type: Tool
+  description: Scripts and workflows for ionospheric signal preprocessing.
+  url: https://github.com/iono-eureka
+
+- title: Tsunami Early Warning Primer
+  type: Reading
+  description: Introductory background on warning systems and operational constraints.
+  url: https://github.com/iono-eureka
+
+- title: Data Governance and Access Notes
+  type: Documentation
+  description: Public documentation on data access constraints and citation guidance.
+  url: https://github.com/iono-eureka

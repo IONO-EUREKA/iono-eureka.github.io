@@ -1,0 +1,83 @@
+- id: inst-ipgp
+  name: Université Paris Cité / IPGP
+  country: France
+  city: Paris
+  lat: 48.8462
+  lon: 2.3564
+
+- id: inst-geoazur
+  name: GéoAzur
+  country: France
+  city: Sophia Antipolis
+  lat: 43.6147
+  lon: 7.0714
+
+- id: inst-sapienza
+  name: Sapienza Università di Roma
+  country: Italy
+  city: Rome
+  lat: 41.9038
+  lon: 12.5145
+
+- id: inst-ngi
+  name: Norwegian Geotechnical Institute (NGI)
+  country: Norway
+  city: Oslo
+  lat: 59.9040
+  lon: 10.7280
+
+- id: inst-norsar
+  name: NORSAR
+  country: Norway
+  city: Kjeller
+  lat: 59.9694
+  lon: 11.0534
+
+- id: inst-inpe
+  name: Instituto Nacional de Pesquisas Espaciais
+  country: Brazil
+  city: São José dos Campos
+  lat: -23.2070
+  lon: -45.8643
+
+- id: inst-utokyo
+  name: University of Tokyo
+  country: Japan
+  city: Tokyo
+  lat: 35.7126
+  lon: 139.7610
+
+- id: inst-uchile
+  name: University of Chile
+  country: Chile
+  city: Santiago
+  lat: -33.4569
+  lon: -70.6517
+
+# - id: inst-iig
+#   name: Indian Institute of Geomagnetism
+#   country: India
+#   city: Navi Mumbai
+#   lat: 19.0136
+#   lon: 73.1058
+
+# - id: inst-erau
+#   name: Embry-Riddle Aeronautical University (Daytona Beach)
+#   country: United States
+#   city: Daytona Beach, Florida
+#   lat: 29.1886
+#   lon: -81.0487
+
+# - id: inst-cea-paris-saclay
+#   name: CEA Paris-Saclay
+#   country: France
+#   city: Saclay
+#   lat: 48.7239
+#   lon: 2.1548
+
+- id: inst-cnes-toulouse
+  name: CNES (Toulouse Space Centre)
+  country: France
+  city: Toulouse
+  lat: 43.5607
+  lon: 1.4793
