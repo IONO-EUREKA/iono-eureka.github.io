@@ -439,6 +439,37 @@ select:focus-visible {
   }
 }
 
+/* ── Tables ── */
+.content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+  margin: var(--space-4) 0;
+}
+
+.content table th,
+.content table td {
+  border: 1px solid var(--color-border);
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  vertical-align: top;
+}
+
+.content table th {
+  background: var(--color-accent-soft);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.content table tr:nth-child(even) {
+  background: #f3f6fa;
+}
+
+/* Allow wide tables to scroll horizontally rather than overflow */
+.content {
+  overflow-x: auto;
+}
+
 /* ── Publications ── */
 .pub-list {
   margin-top: var(--space-3);
