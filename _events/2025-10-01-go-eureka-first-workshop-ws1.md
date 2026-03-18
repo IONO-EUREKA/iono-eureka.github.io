@@ -17,7 +17,7 @@ project's in-person technical coordination activities.
 For workshop material and details, see the WS1 repository:
 [IONO-EUREKA/WS1](https://github.com/IONO-EUREKA/WS1).
 
-1st GO-EUREKA Workshop Agenda
+1st GO-EUREKA Workshop Agenda - pdf downloadable internally to the group
 
 **Tuesday, October 7, 2025**
 
