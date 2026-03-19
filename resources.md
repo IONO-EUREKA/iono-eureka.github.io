@@ -15,8 +15,14 @@ uses_repo_browser: true
     <div class="pub-item">
       <p class="pub-title">
         {% if pub.year %}<span class="pub-year">({{ pub.year }})</span>{% endif %}
+        {% assign pub_link = nil %}
         {% if pub.doi %}
-          <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
+          {% assign pub_link = "https://doi.org/" | append: pub.doi %}
+        {% elsif pub.url %}
+          {% assign pub_link = pub.url %}
+        {% endif %}
+        {% if pub_link %}
+          <a href="{{ pub_link }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
         {% else %}
           {{ pub.title }}
         {% endif %}
@@ -30,8 +36,14 @@ uses_repo_browser: true
       <div class="pub-item">
         <p class="pub-title">
           {% if pub.year %}<span class="pub-year">({{ pub.year }})</span>{% endif %}
+          {% assign pub_link = nil %}
           {% if pub.doi %}
-            <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
+            {% assign pub_link = "https://doi.org/" | append: pub.doi %}
+          {% elsif pub.url %}
+            {% assign pub_link = pub.url %}
+          {% endif %}
+          {% if pub_link %}
+            <a href="{{ pub_link }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>
           {% else %}
             {{ pub.title }}
           {% endif %}
