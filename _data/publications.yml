@@ -24,6 +24,17 @@
   pages: e2025EA004214
 
 - year: 2024
+  title: Near-Real-Time Identification of the Source of Ionospheric Disturbances
+  doi: 10.1029/2024JA032664
+  authors:
+    - "Maletckii, B."
+    - "Astafyeva, E."
+  journal: Journal of Geophysical Research (Space Physics)
+  volume: 129
+  issue: 11
+  pages: 2024JA032664
+
+- year: 2024
   title: "Probing the Ionospheric Effects of the 2020 Aegean Sea Earthquake: Leveraging GNSS Observations for Tsunami Early Warning in the Mediterranean"
   doi: 10.1029/2024JA032946
   authors:
@@ -61,6 +72,20 @@
   pages: 106
 
 - year: 2023
+  title: "{The 6 February 2023 T\\\"urkiye Earthquake Sequence as Detected in the Ionosphere}"
+  doi: 10.1029/2023JA031663
+  authors:
+    - "Maletckii, B."
+    - "Astafyeva, E."
+    - "Sanchez, S.~A."
+    - "Kherani, E.~A."
+    - "de Paula, E.~R."
+  journal: Journal of Geophysical Research (Space Physics)
+  volume: 128
+  issue: 9
+  pages: e2023JA031663
+
+- year: 2023
   title: "Ocean-Ionosphere Disturbances Due To the 15 January 2022 Hunga-Tonga Hunga-Ha'apai Eruption"
   doi: 10.1029/2022GL101465
   authors:
@@ -75,6 +100,17 @@
   pages: e2022GL101465
 
 - year: 2022
+  title: "Near-Real-Time Analysis of the Ionospheric Response to the 15 January 2022 Hunga Tonga-Hunga Ha'apai Volcanic Eruption"
+  doi: 10.1029/2022JA03073510.1002/essoar.10511373.2
+  authors:
+    - "Maletckii, B."
+    - "Astafyeva, E."
+  journal: Journal of Geophysical Research (Space Physics)
+  volume: 127
+  issue: 10
+  pages: e2022JA030735
+
+- year: 2022
   title: On the North-South Asymmetry of Co-Seismic Ionospheric Disturbances During the 16 September 2015 Illapel M8.3 Earthquake
   doi: 10.1029/2022GL098090
   authors:
@@ -86,6 +122,16 @@
   volume: 49
   issue: 8
   pages: e98090
+
+- year: 2021
+  title: Determining spatio-temporal characteristics of coseismic travelling ionospheric disturbances (CTID) in near real-time
+  doi: 10.1038/s41598-021-99906-510.1002/essoar.10507883.1
+  authors:
+    - "Maletckii, Boris"
+    - "Astafyeva, Elvira"
+  journal: Scientific Reports
+  volume: 11
+  pages: 20783
 
 - year: 2021
   title: "GNSS total variometric approach: first demonstration of a tool for real-time tsunami genesis estimation"
