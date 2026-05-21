@@ -4,8 +4,6 @@ title: News
 lead: "Announcements, milestones, and project updates."
 permalink: /news/
 ---
-{% comment %}
-====== COMMENTED OUT — uncomment when news is updated ======
 {% assign news_items = site.news | sort: "date" | reverse %}
 {% if news_items.size > 0 %}
 <div class="grid grid-2">
@@ -23,7 +21,3 @@ permalink: /news/
 {% else %}
 <p>No news published yet.</p>
 {% endif %}
-====== END COMMENTED OUT ======
-{% endcomment %}
-
-<p>No news published yet.</p>
