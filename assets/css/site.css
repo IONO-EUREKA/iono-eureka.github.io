@@ -470,6 +470,13 @@ select:focus-visible {
   overflow-x: auto;
 }
 
+/* Scale images down to fit the column rather than clipping/overflowing */
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ── Publications ── */
 .pub-list {
   margin-top: var(--space-3);
