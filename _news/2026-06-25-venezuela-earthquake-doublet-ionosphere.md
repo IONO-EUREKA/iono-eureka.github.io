@@ -1,13 +1,13 @@
 ---
-title: "Venezuela Earthquake Doublet Observed in the Ionosphere"
+title: "Venezuela Earthquake Observed in the Ionosphere"
 date: 2026-06-25
 author: "GO-EUREKA Team"
-summary: "On 24 June 2026, a rare M7.2–M7.5 earthquake doublet struck near Yumare, Venezuela. GO-EUREKA captured the co-seismic energy radiating into the ionosphere as clear perturbations in Total Electron Content (TEC)."
+summary: "On 24 June 2026, a rare M7.2–M7.5 earthquake doublet struck near Yumare, Venezuela. GO-EUREKA captured the co-seismic energy radiating into the ionosphere as a clear perturbation in Total Electron Content (TEC)."
 categories: [News, Science]
 tags: [Earthquakes, Ionosphere, TEC, GNSS, Venezuela]
 ---
 
-On **24 June 2026**, a powerful earthquake **doublet** struck the coast of northern Venezuela, near the town of Yumare. The two events occurred just **39 seconds apart**, releasing seismic energy that not only shook the ground but also propagated upward into the upper atmosphere. Using the GO-EUREKA workflow, **we observed this event in the ionosphere** as clear disturbances in the Total Electron Content (TEC) measured by regional GNSS networks.
+On **24 June 2026**, a powerful earthquake **doublet** struck the coast of northern Venezuela, near the town of Yumare. The two events occurred just **39 seconds apart**, releasing seismic energy that not only shook the ground but also propagated upward into the upper atmosphere. Using the GO-EUREKA workflow, **we observed this event in the ionosphere** as a clear disturbance in the Total Electron Content (TEC) measured by regional GNSS networks.
 
 ### The Earthquake Doublet
 
