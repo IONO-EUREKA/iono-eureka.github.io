@@ -20,24 +20,23 @@ According to the [USGS](https://earthquake.usgs.gov/), the sequence consisted of
 
 USGS event pages: [M7.2 (atth5pbk)](https://earthquake.usgs.gov/earthquakes/eventpage/atth5pbk/executive) · [M7.5 (us6000t7zp)](https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp/executive)
 
-The near-simultaneity and proximity of the two ruptures make this a textbook **earthquake doublet** — and an exceptional natural experiment for studying how seismic energy couples into the ionosphere.
+The near-simultaneity and proximity of the two ruptures make this an **earthquake doublet** — and a good case for studying how seismic energy couples into the ionosphere.
 
 ### Seeing the Earthquake in the Ionosphere
 
 Large earthquakes generate acoustic and gravity waves that travel upward and perturb the ionospheric plasma. These **co-seismic ionospheric disturbances (CIDs)** appear as characteristic ripples in the TEC derived from GNSS observations, typically arriving several minutes after the rupture as the acoustic wavefront reaches ionospheric heights (~250–350 km).
 
-For the Venezuela doublet, the dense regional GNSS coverage allowed us to map these perturbations across multiple satellite–receiver lines of sight.
+For the Venezuela doublet, the dense regional GNSS coverage will enable mapping these perturbations across multiple satellite–receiver lines of sight.
 
 ![Map of GNSS stations and ionospheric pierce points around the Venezuela earthquake epicenter]({{ "/assets/img/news/2026-venezuela-earthquake/satellites.png" | relative_url }})
 *Figure 1. GNSS network geometry and satellites around the epicentral area.*
 
 ### TEC Signals
 
-The figures below show the detrended TEC time series, where the co-seismic ionospheric disturbance stands out clearly above the background.
+The figure below shows an example of the detrended TEC time series, where the co-seismic ionospheric disturbance stands out clearly above the background.
 
 ![Detrended TEC time series showing the co-seismic ionospheric disturbance]({{ "/assets/img/news/2026-venezuela-earthquake/BOGT-G13.png" | relative_url }})
 *Figure 2. Detrended TEC perturbations following the M7.5 mainshock, showing the characteristic N-shaped acoustic signature.*
-
 
 ### Why It Matters
 
